@@ -54,4 +54,8 @@ dependencies {
     implementation ("com.squareup.retrofit2:converter-gson:2.7.2")
     implementation ("com.squareup.picasso:picasso:2.8")
 
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2")
+
 }
