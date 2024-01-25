@@ -3,4 +3,6 @@
     <string name="user_name">Bacovia cel Trist</string>
     <string name="user_years">User years</string>
     <string name="date_of_register">12:12</string>
+    <string name="star">Star</string>
+    <string name="user_image">user image</string>
 </resources>
