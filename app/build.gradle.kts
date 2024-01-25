@@ -7,9 +7,14 @@ android {
     namespace = "com.homework.raiffeisen"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+
+    }
+
     defaultConfig {
         applicationId = "com.homework.raiffeisen"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -47,4 +52,6 @@ dependencies {
 
     implementation ("com.squareup.retrofit2:retrofit:2.7.2")
     implementation ("com.squareup.retrofit2:converter-gson:2.7.2")
+    implementation ("com.squareup.picasso:picasso:2.8")
+
 }
